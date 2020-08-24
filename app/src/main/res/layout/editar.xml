@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="EDITA CUENTA"
+        android:layout_margin="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="Correo"
+        android:enabled="false"
+        android:inputType="textEmailAddress"
+        android:layout_margin="20dp"
+        android:id="@+id/EdiUser"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="Password"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"
+        android:id="@+id/EdiPass" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="Nombre"
+        android:layout_margin="20dp"
+        android:inputType="textPersonName"
+        android:id="@+id/EdiNombre" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="Apellidos"
+        android:layout_margin="20dp"
+        android:inputType="textPersonName"
+        android:id="@+id/EdiApellido" />
+    <Button
+        android:id="@+id/btnEdiRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="ACTUALIZAR"
+        android:background="#FF0000"
+        android:layout_margin="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+    <Button
+        android:id="@+id/btnEdiCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="CANCELAR"
+        android:background="#0000ff"
+        android:layout_margin="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+</LinearLayout>
